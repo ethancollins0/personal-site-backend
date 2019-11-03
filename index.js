@@ -43,14 +43,8 @@ app.post('/', (req, res) => {
     }
 })
 
-
-
-
-
-
 app.get('/', (req, res) => {
-    console.log('here')
-    res.json('success')
+    res.json('This is my nodemailer, whatcha doin here?')
 })
 
 app.listen(process.env.PORT || 3000, () => {
